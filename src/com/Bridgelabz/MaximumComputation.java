@@ -5,12 +5,12 @@ public class MaximumComputation
   public static void main(String [] args)
   {
 	  System.out.println("Welcome to Maximum Compution of Three Numberd");
-	  Integer x=20,y=12,z=25;
+	  Float x=12.4f,y=12.7f,z=12.8f;
 	  findMaximum(x,y,z);
   }
 
-private static void findMaximum(Integer x, Integer y, Integer z) {
-	Integer maxNumber;
+private static void findMaximum(Float x, Float y, Float z) {
+	Float maxNumber;
 	if(x.compareTo(y)>0 && x.compareTo(z)>0) {
 		maxNumber=x;
 	}
