@@ -49,7 +49,7 @@ public static String testMaximum(String x,String y ,String z) {
   {
 	  System.out.println("Welcome to Maximum Compution of Three Numberd");
 	  Integer x=20,y=12,z=25;
-	  Float x1=12.4f,y1=12.7f,z1=12.8f;
+	  Float x1=12f,y1=20f,z1=26f;
 	  String x2="Apple",y2="Banana",z2="peach";
 	  MaximumComputation.testMaximum(x2, y2, z2);
 	  new  MaximumComputation(x,y,z).findMaximum(x, y, z);
